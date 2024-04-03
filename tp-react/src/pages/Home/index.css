@@ -1,0 +1,34 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+ 
+.Menu > h1{
+ 
+    font-size: 7dvh;
+}
+ 
+
+.Plat > h4{
+ 
+    font-size: 4dvh
+}
+ 
+.Entrée, .Sandwitch, .Hamburgers, .Boissons, .BoBun {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+ 
+.Plat {
+    width: 90%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #bacdd8;
+    border-radius: 50px;
+}

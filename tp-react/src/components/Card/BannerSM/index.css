@@ -1,0 +1,20 @@
+.BannerSM{
+    background-image: url('https://rs-menus-api.roocdn.com/images/3354c517-0099-4ec2-9463-7ae5275cd3df/image.jpeg');
+    background-size: cover;
+    padding-top: 30vh;
+    position: relative;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+
+}
+
+
+
+.bannerImg{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    height: 100%;
+    object-fit: cover;
+}
